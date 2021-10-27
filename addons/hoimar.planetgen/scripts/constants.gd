@@ -5,6 +5,10 @@ const GRAVITY_ENABLED := true      # TODO: Implement gravity.
 const THREADS_ENABLED := true
 
 const USE_TERRAIN_CACHE := true
+const GRAVITY := 0.000000981   # Increase this to make gravity fade faster than reality.
+const MOUSE_SENSITIVITY := 1.5
+
+### Quad tree and terrain LOD constants.
 # Quad tree depth, also number of LOD levels.
 const MAX_TREE_DEPTH := 9
 # How long the feeder thread sleeps if idle in µs.

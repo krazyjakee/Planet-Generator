@@ -12,6 +12,7 @@ var _org_water_mesh: Mesh
 var _solar_system: Node
 var _logger := Logger.get_for(self)
 var Terr_cache : TerrainCache
+var mass: float = pow(10.0, 10)   # TODO: Make this configurable through settings.
 onready var _terrain: TerrainManager = $TerrainManager
 onready var _atmosphere = $Atmosphere
 onready var _water_sphere: MeshInstance = $WaterSphere
